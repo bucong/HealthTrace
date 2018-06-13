@@ -32,7 +32,7 @@
                   </div>
                 </div>
                 <div class="wallet item">
-                  <router-link to="">{{ $t("header.menu.wallet") }}</router-link>
+                  <a href="https://bucong.github.io/wallet/dist/">{{ $t("header.menu.wallet") }}</a>
                 </div>
                 <div class="language">
                   <div class="item">

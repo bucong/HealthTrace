@@ -316,6 +316,7 @@ textarea:focus {
 }
 .home .banner div {
   height: 300px;
+  background-image: url("../../../static/img/banner.png");
 }
 .home .data {
   background: #fff;
