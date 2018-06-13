@@ -6,7 +6,7 @@
           <el-row>
             <el-col :xs="24" :sm="5">
               <div class="flex">
-                <router-link to="/"><img src="/static/img/logo.png" alt="" class="logo-img"></router-link>
+                <router-link to="/"><img src="static/img/logo.png" alt="" class="logo-img"></router-link>
                 <i class="iconfont icon-meun" @click="menuShow">&#xe608;</i>
               </div>
             </el-col>
@@ -36,14 +36,14 @@
                 </div>
                 <div class="language">
                   <div class="item">
-                    <img :src="'/static/img/language-'+language.lang+'.png'" alt="">
+                    <img :src="'static/img/language-'+language.lang+'.png'" alt="">
                     <span>{{language.value}}</span>
                     <i class="iconfont">&#xe614;</i>
                   </div>
                   <div class="language-list">
                     <ul>
                       <li v-for="item in langs" @click="changeLanguage(item)">
-                        <img :src="'/static/img/language-'+item.lang+'.png'" alt="">
+                        <img :src="'static/img/language-'+item.lang+'.png'" alt="">
                         <span>{{item.value}}</span>
                       </li>
                     </ul>
@@ -73,7 +73,7 @@
             </div>
           </div>
           <div class="footer">
-            <img src="/static/img/foot_logo.png" alt="">
+            <img src="static/img/foot_logo.png" alt="">
             <p class="copyright">{{ $t("footer.copyright") }}</p>
           </div>
         </div>

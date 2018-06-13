@@ -7,7 +7,7 @@
       <el-row>
         <el-col :xs="24" :sm="12" :md="8">
           <div class="item">
-            <img src="/static/img/icon_monitor1.png" alt="">
+            <img src="static/img/icon_monitor1.png" alt="">
             <div>
               <h5>{{ $t("delegate.monitor.item1.title") }}</h5>
               <h4>431</h4>
@@ -18,7 +18,7 @@
         </el-col>
         <el-col :xs="24" :sm="12" :md="8">
           <div class="item">
-            <img src="/static/img/icon_monitor2.png" alt="">
+            <img src="static/img/icon_monitor2.png" alt="">
             <div>
               <h5>{{ $t("delegate.monitor.item2.title") }}</h5>
               <h4>16,523,476</h4>
@@ -28,7 +28,7 @@
         </el-col>
         <el-col :xs="24" :sm="12" :md="8">
           <div class="item">
-            <img src="/static/img/icon_monitor3.png" alt="">
+            <img src="static/img/icon_monitor3.png" alt="">
             <div>
               <h5>{{ $t("delegate.monitor.item3.title") }}</h5>
               <h4><span class="blue">5578840</span></h4>
@@ -39,7 +39,7 @@
         </el-col>
         <el-col :xs="24" :sm="12" :md="8">
           <div class="item">
-            <img src="/static/img/icon_monitor4.png" alt="">
+            <img src="static/img/icon_monitor4.png" alt="">
             <div>
               <h5>{{ $t("delegate.monitor.item4.title") }}</h5>
               <h4><span class="blue">Tembo</span></h4>
@@ -50,7 +50,7 @@
         </el-col>
         <el-col :xs="24" :sm="12" :md="8">
           <div class="item">
-            <img src="/static/img/icon_monitor5.png" alt="">
+            <img src="static/img/icon_monitor5.png" alt="">
             <div>
               <h5>{{ $t("delegate.monitor.item5.title") }}</h5>
               <h4><span class="blue">CC001</span></h4>
@@ -60,7 +60,7 @@
         </el-col>
         <el-col :xs="24" :sm="12" :md="8">
           <div class="item">
-            <img src="/static/img/icon_monitor6.png" alt="">
+            <img src="static/img/icon_monitor6.png" alt="">
             <div>
               <h5>{{ $t("delegate.monitor.item6.title") }}</h5>
               <h4>99.3%</h4>

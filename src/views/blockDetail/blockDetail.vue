@@ -9,7 +9,7 @@
         <p>{{ id }}</p>
         <div class="copy">
           <i class="iconfont" v-clipboard:copy="id" v-clipboard:success="onCopy">&#xe63d;</i>
-          <img src="/static/img/icon_copied.png" v-show="copyId" alt="">
+          <img src="static/img/icon_copied.png" v-show="copyId" alt="">
         </div>
       </li>
     </ul>

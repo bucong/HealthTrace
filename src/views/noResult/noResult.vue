@@ -1,6 +1,6 @@
 <template>
   <div class="no-result">
-    <img src="/static/img/empty.png" alt="">
+    <img src="static/img/empty.png" alt="">
     <p>{{ $t("noResult") }}</p>
   </div>
 </template>

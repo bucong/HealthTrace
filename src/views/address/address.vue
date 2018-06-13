@@ -9,7 +9,7 @@
         <p>{{ id }}</p>
         <div class="copy">
           <i class="iconfont" v-clipboard:copy="id" v-clipboard:success="onCopyId">&#xe63d;</i>
-          <img src="/static/img/icon_copied.png" v-show="copyId" alt="">
+          <img src="static/img/icon_copied.png" v-show="copyId" alt="">
         </div>
       </li>
       <li class="flex">
@@ -17,7 +17,7 @@
         <p>{{ publicKey }}</p>
         <div class="copy">
           <i class="iconfont" v-clipboard:copy="publicKey" v-clipboard:success="onCopyKey">&#xe63d;</i>
-          <img src="/static/img/icon_copied.png" v-show="copyPublicKey" alt="">
+          <img src="static/img/icon_copied.png" v-show="copyPublicKey" alt="">
         </div>
       </li>
     </ul>
